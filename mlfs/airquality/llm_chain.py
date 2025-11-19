@@ -1,5 +1,5 @@
 import transformers
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, AutoConfig, AutoModel
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig, AutoModel
 from langchain.llms import HuggingFacePipeline
 from langchain.prompts import PromptTemplate
 from langchain.chains.llm import LLMChain
@@ -36,14 +36,6 @@ def load_model(model_id: str = "teknium/OpenHermes-2.5-Mistral-7B") -> tuple:
     # Set the padding side to "right" to prevent warnings during tokenization
     tokenizer.padding_side = "right"
 
-    # BitsAndBytesConfig int-4 config
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_use_double_quant=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-    )
-
     model_path = "/tmp/mistral/model"
     if os.path.exists(model_path):
         print("Loading model from disk")
@@ -53,7 +45,7 @@ def load_model(model_id: str = "teknium/OpenHermes-2.5-Mistral-7B") -> tuple:
         model_llm = AutoModelForCausalLM.from_pretrained(
             model_id,
             device_map="auto",
-            quantization_config=bnb_config,
+            torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         )
         model_llm.save_pretrained(model_path)
 
