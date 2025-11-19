@@ -1,0 +1,12 @@
+ecilkapra-hyderabad-air-quality.csv
+kokapet-hyderabad-air-quality.csv
+newmalakpet-hyderabad-air-quality.csv
+kompallymunicipaloffice-hyderabad-air-quality.csv
+centraluniversity-hyderabad-air-quality.csv
+nacharamtsiiciala-hyderabad-air-quality.csv
+sanathnagar-hyderabad-air-quality.csv
+ramachandrapuram-hyderabad-air-quality.csv
+icrisatpatancheru-hyderabad-air-quality.csv
+bollaramindustrialarea-hyderabad-air-quality.csv
+somajiguda-hyderabad-air-quality.csv
+zooparkbahadurpurawest-hyderabad-air-quality.csv

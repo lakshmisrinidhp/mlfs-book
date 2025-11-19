@@ -1,0 +1,59 @@
+aqicn_url = "https://api.waqi.info/feed/@14125"
+country = "India"
+city = "Hyderabad"
+street = "Somajiguda, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@8677"
+country = "India"
+city = "Hyderabad"
+street = "Zoo Park, Bahadurpura West, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@14156"
+country = "India"
+city = "Hyderabad"
+street = "ECIL Kapra, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@14127"
+country = "India"
+city = "Hyderabad"
+street = "Kokapet, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@14135"
+country = "India"
+city = "Hyderabad"
+street = "New Malakpet, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@14149"
+country = "India"
+city = "Hyderabad"
+street = "Kompally Municipal Office, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@11284"
+country = "India"
+city = "Hyderabad"
+street = "Central University, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@14155"
+country = "India"
+city = "Hyderabad"
+street = "Nacharam_TSIIC IALA, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@8182"
+country = "India"
+city = "Hyderabad"
+street = "Sanathnagar, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@14140"
+country = "India"
+city = "Hyderabad"
+street = "Ramachandrapuram, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@11305"
+country = "India"
+city = "Hyderabad"
+street = "ICRISAT Patancheru, Hyderabad"
+
+aqicn_url = "https://api.waqi.info/feed/@11295"
+country = "India"
+city = "Hyderabad"
+street = "Bollaram Industrial Area, Hyderabad"
